@@ -10,7 +10,7 @@ public class UserItems {
 
     private static List<UserItems> MyItems = new ArrayList<>();
     //constructor
-    UserItems(String Cartype, String Biketype, String Shoetype, int PhoneNumber){
+    public UserItems(String Cartype, String Biketype, String Shoetype, int PhoneNumber){
         this.Cartype=Cartype;
         this.Biketype=Biketype;
         this.Shoetype=Shoetype;
